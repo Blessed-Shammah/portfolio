@@ -64,10 +64,10 @@ export default function Home() {
           </div>
 
           <div>
-            <h1 style={{ fontSize: '2.5rem', margin: '0' }}>I'm</h1>
+            <h1 style={{ fontSize: '2.5rem', margin: '0' }}>I&apos;m</h1>
             <h1 style={{ fontSize: '2.5rem', margin: '0', color: '#4FD1C5' }}>Blessed Shammah</h1>
             <p style={{ color: '#666', margin: '10px 0' }}>
-              I'm a Web Developer, App Developer, UX/UI Designer and Video Editor.
+            I&apos;m a Web Developer, App Developer, UX/UI Designer and Video Editor.
             </p>
             <button 
               onClick={handleHireMe}
