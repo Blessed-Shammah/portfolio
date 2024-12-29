@@ -1,6 +1,6 @@
-// pages/index.tsx
 import Head from 'next/head'
 import Image from 'next/image'
+import { Analytics } from '@vercel/analytics/react'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   const handleHireMe = () => {
-    window.location.href = 'mailto:iamblessedshammah@gmail.com';
+    window.location.href = 'mailto:your-email@example.com';
   };
 
   return (
@@ -186,6 +186,9 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      {/* Add Analytics */}
+      <Analytics />
 
       <style jsx global>{`
         @keyframes float {
