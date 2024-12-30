@@ -17,15 +17,22 @@ export default function Home() {
   }, []);
 
   const handleHireMe = () => {
-    window.location.href = 'mailto:your-email@example.com';
+    window.location.href = 'mailto:iamblessedshammah@gmail.com';
   };
 
   return (
     <>
       <Head>
-        <title>Portfolio - Kompany Dean</title>
-        <meta name="description" content="Personal portfolio of Kompany Dean" />
+        <title>Portfolio - Blessed Shammah</title>
+        <meta name="description" content="Personal portfolio of Blessed Shammah" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        {/* Favicon/Icon settings */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       
       {/* Animated Background */}
@@ -142,7 +149,7 @@ export default function Home() {
               color: '#4FD1C5',
               fontWeight: '700',
             }}>
-              Kompany Dean
+              Blessed Shammah
             </h1>
             <p style={{ 
               color: '#666',
@@ -150,7 +157,7 @@ export default function Home() {
               fontSize: isMobile ? '0.9rem' : '1rem',
               lineHeight: '1.6',
             }}>
-              I&apos;m a Web Developer, App Developer, UX/UI Designer and Video Editor.
+              I&apos;m a Web Developer, App Developer, UX/UI Designer and Prompt Engineer.
             </p>
             <button 
               onClick={handleHireMe}
